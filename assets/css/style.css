@@ -48,14 +48,15 @@ footer {
   margin-top: 20px;
   padding: 25px;
 }
-.image-content h2 {
+.image-content h2, 
+.paragraph-container h2 {
   font-family: 'Dancing Script', cursive;
-  font-size: 34px;
 }
 .image-content h3 ,p {
   font-family: 'Mali', cursive;
 }
-.content-container {
+.content-container ,
+.paragraph-container {
  padding: 10px;
 }
 .content-container h2{
