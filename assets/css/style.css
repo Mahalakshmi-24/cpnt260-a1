@@ -21,7 +21,10 @@ body {
 }
 .imag-wrapper {
   display: flex;
-
+}
+.image-container {
+  text-align: center;
+  margin-top: 15px;
 }
 .image-content {
   background-color: lightcyan;
