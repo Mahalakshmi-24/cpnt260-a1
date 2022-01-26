@@ -18,6 +18,7 @@ body {
 }
 .tittle-container {
   margin-left: 10px;
+  font-family: 'EB Garamond', serif;
 }
 .imag-wrapper {
   display: flex;
