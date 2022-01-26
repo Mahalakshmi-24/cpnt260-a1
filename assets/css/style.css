@@ -1,0 +1,38 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;  
+  list-style: none;
+  gap: 15px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+body {
+  margin: 0px;
+}
+.tittle-container {
+  margin-left: 10px;
+}
+.imag-wrapper {
+  display: flex;
+
+}
+.image-content {
+  background-color: lightcyan;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 15px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px;
+}
