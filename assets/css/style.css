@@ -12,6 +12,7 @@
   gap: 15px;
   font-size: 24px;
   margin-right: 10px;
+  font-family: 'EB Garamond', serif;
 }
 .nav-links a {
   text-decoration: none;
@@ -23,6 +24,9 @@ body {
 .tittle-container {
   margin-left: 10px;
   font-family: 'EB Garamond', serif;
+}
+img {
+  width: 100%;
 }
 .imag-wrapper {
   display: flex;
@@ -43,4 +47,17 @@ footer {
   text-align: center;
   margin-top: 20px;
   padding: 25px;
+}
+.image-content h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 34px;
+}
+.image-content h3 ,p {
+  font-family: 'Mali', cursive;
+}
+.content-container {
+ padding: 10px;
+}
+.content-container h2{
+  font-family: 'Dancing Script', cursive;
 }
