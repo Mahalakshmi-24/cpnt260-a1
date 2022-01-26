@@ -1,29 +1,15 @@
+/*****main designs*****/
 .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  
   background-color: bisque;
-}
-.nav-links {
-  display: flex;
-  flex-wrap: wrap;  
-  list-style: none;
-  gap: 15px;
-  font-size: 24px;
-  margin-right: 10px;
-  font-family: 'EB Garamond', serif;
-}
-.nav-links a {
-  text-decoration: none;
-  color: black;
 }
 body {
   margin: 0px;
-}
-.tittle-container {
-  margin-left: 10px;
-  font-family: 'EB Garamond', serif;
 }
 img {
   width: 100%;
@@ -31,6 +17,36 @@ img {
 .imag-wrapper {
   display: flex;
 }
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+/*****navbar*****/
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;  
+  list-style: none;
+  gap: 15px;
+
+  font-size: 24px;
+  margin-right: 10px;
+  font-family: 'EB Garamond', serif;
+}
+/*****font styless*****/
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.tittle-container {
+  margin-left: 10px;
+  font-family: 'EB Garamond', serif;
+}
+
 .image-container {
   text-align: center;
   margin-top: 15px;
@@ -41,13 +57,7 @@ img {
   margin: 15px;
   padding: 15px;
 }
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-  padding: 25px;
-}
+
 .image-content h2, 
 .paragraph-container h2 {
   font-family: 'Dancing Script', cursive;
